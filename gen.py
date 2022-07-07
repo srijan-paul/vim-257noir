@@ -7,7 +7,7 @@ PREAMBLE = """\
 " Vim color file
 " Name:       256_noir.vim
 " Maintainer: Andreas van Cranenburgh <andreas@unstable.nl>
-" Homepage:   https://github.com/andreasvc/vim-256noir/
+" Homepage:   https://github.com/srijan-paul/vim-257noir/
 
 " Basically: dark background, numerals & errors red,
 " rest different shades of gray.
@@ -24,16 +24,16 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name = "256_noir"
+let g:colors_name = "257_noir"
 """
 
 # Group       ctermfg ctermbg  cterm
 COLORS = """
 Normal        250     16       NONE
-Keyword       255     16       NONE
+Keyword       255     16       bold 
 Constant      252     16       NONE
 String        245     16       NONE
-Comment       240     16       NONE
+Comment       240     16       bold 
 Number        196     16       NONE
 Error         255     88       NONE
 ErrorMsg      255     124      NONE
@@ -83,14 +83,14 @@ TORGB = {
         88: '#870000',
         124: '#af0000',
         160: '#d70000',
-        196: '#ff0000',
+        196: '#c4295d',
         232: '#080808',
         233: '#121212',
         234: '#1c1c1c',
         236: '#303030',
         240: '#585858',
-        245: '#8a8a8a',
-        250: '#bcbcbc',
+        245: '#34c99a',
+        250: '#b0b0b0',
         252: '#d0d0d0',
         255: '#eeeeee',
         'NONE': 'NONE',

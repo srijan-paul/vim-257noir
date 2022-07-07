@@ -1,5 +1,5 @@
 default:
-	python gen.py >colors/256_noir.vim
+	python gen.py >colors/257_noir.vim
 
 install: default
-	cp colors/256_noir.vim ~/.vim/colors/
+	cp colors/257_noir.vim ~/.vim/colors/
